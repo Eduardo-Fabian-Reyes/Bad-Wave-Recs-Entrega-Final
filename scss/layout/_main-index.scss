@@ -1,0 +1,92 @@
+body{
+    background-color: #FFD4FF;
+    $fuente-badwave: 'Saira', sans-serif;
+    $color-fuente1: #13101C; 
+    $opacidad-botones: rgba(229, 175, 227, 0.39);
+    
+    .section-catalogo {
+        width: 100%;
+        height: 45.25rem;
+        background-image: url(../assets/img/catalogo-home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin: 0 auto;
+        div {
+            a {
+                button {
+                    background-color: $opacidad-botones;
+                    color: $color-fuente1;
+                    font-family: $fuente-badwave;
+                    font-size: 3rem;
+                    border-style: none;
+                    padding: 1rem 1.5rem;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .section-news {
+        div {
+            a {
+                button {
+                    background-color: $opacidad-botones;
+                    color: $color-fuente1;
+                    font-family: $fuente-badwave;
+                    font-size: 3rem;
+                    border-style: none;
+                    padding: .1rem 1.5rem;
+                    cursor: pointer;
+                }
+            }
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        display: flex;
+        width: 100%;
+        height: 42.25rem;
+        background-image: url(../assets/img/news-home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        align-content: flex-start;
+    }
+    .section-merch {
+        div {
+            a {
+                button {
+                    background-color: $opacidad-botones;
+                    color: $color-fuente1;
+                    font-family: $fuente-badwave;
+                    font-size: 3rem;
+                    border-style: none;
+                    padding: .1rem 1.5rem;
+                    cursor: pointer;
+                }
+            }
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        display: flex;
+        width: 100%;
+        height: 42.25rem;
+        background-image: url(../assets/img/merch-home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        align-content: flex-start;
+    }
+    .newsmerch {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+}

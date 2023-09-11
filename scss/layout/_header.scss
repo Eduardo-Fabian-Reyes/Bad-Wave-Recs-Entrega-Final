@@ -1,0 +1,36 @@
+header{
+    background-color: #e5afe3;
+    color: $color-fuente1;
+        .nav-container{
+            display: flex;
+                flex-direction: column;
+                height: 100%;
+                width: 90%;
+                margin: 0 auto;
+                justify-content: space-between;
+                align-items: center;
+                label{
+                    img{
+                        width: 10%;
+                    }
+                }
+                .nav-menu{
+                    display: flex;
+                    font-family: $fuente-badwave;
+                    font-size: 4.25rem;
+                    gap: 5.25rem;
+                    li{
+                        list-style: none;
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    
+
+
+.nav-label, .nav-input{
+display: none;
+}

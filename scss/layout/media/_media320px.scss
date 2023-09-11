@@ -1,0 +1,44 @@
+@media(max-width:320px){
+    header{
+        .nav{ 
+                .nav-container{
+                    .nav-menu{
+                        font-size: 1.25rem;
+                        top: 2.2rem;
+                }
+            }
+        }
+    } 
+    .main-index{
+        .section-catalogo{
+            height: 8.15rem;
+        }
+        .newsmerch{
+        .section-news{
+            height: 8.15rem;
+        }
+        .section-merch{
+            height: 8.15rem;
+        }
+        }
+    }
+    .main-catalogo{
+        .flex-bandas{
+            h1{
+                font-size: 2rem;
+            }
+            .flex-bandas1 {
+                height: 10.15rem
+            }
+            .flex-bandas2 {
+                height: 10.15rem
+            }
+            .flex-bandas3 {
+                height: 10.15rem
+            }
+            .flex-bandas4 {
+                height: 10.15rem
+            }
+        }   
+    }
+}

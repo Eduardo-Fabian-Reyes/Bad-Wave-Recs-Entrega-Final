@@ -1,0 +1,75 @@
+.flex-bandas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+        h1 {
+        width: 100%;
+        font-family: 'Saira', sans-serif;
+        font-size: 4rem;
+        text-align: center;
+        }
+}
+
+.flex-bandas1 {
+    background-image: url(../assets/img/turnstile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 40.15rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.flex-bandas2 {
+    background-image: url(../assets/img/deftones.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 40.15rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.flex-bandas3 {
+    background-image: url(../assets/img/loquero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 40.15rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.flex-bandas4 {
+    background-image: url(../assets/img/title-fight.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 40.15rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.flex-bandas1 a button, .flex-bandas2 a button, .flex-bandas3 a button, .flex-bandas4 a button {
+    background-color: $opacidad-botones;
+    color: $color-fuente1;
+    font-family: $fuente-badwave;
+    font-size: 1.5rem;
+    border-style: none;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}

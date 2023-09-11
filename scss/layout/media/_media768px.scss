@@ -1,0 +1,101 @@
+@media (max-width:768px){
+    header{
+    .nav{ 
+        .nav-container{
+            flex-direction: row-reverse;
+            .nav-menu{
+                gap: 0.25rem;
+                justify-content: flex-start;
+                position: fixed;
+                top: 3.2rem;
+                bottom: 30rem;
+                background: #FFD4FF;
+                width: 100%;
+                left: 0;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-items: center;
+                clip-path: circle(0% at center);
+                transition: clip-path .5s ease-in-out;
+                z-index: 1;
+            }
+        }
+    }
+    .nav-label{
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+    .nav-input:checked + .nav-menu{
+        clip-path: circle(100% at center);
+    }
+    .nav-logo{
+        width: 60%;
+    }
+}
+.main-index{
+    .section-catalogo{
+        height: 23.15rem;
+    }
+    .newsmerch{
+        flex-direction: column;
+        flex-wrap: wrap;
+    .section-news{
+        width: 100%;
+    }
+    .section-merch{
+        width: 100%;
+    }
+    }
+}
+.main-catalogo{
+    .flex-bandas{
+        .flex-bandas1 {
+            width: 90%;
+            height: 24.15rem;
+        }
+        .flex-bandas2 {
+            width: 90%;
+            height: 24.15rem;
+        }
+        .flex-bandas3 {
+            width: 90%;
+            height: 24.15rem;
+        }
+        .flex-bandas4 {
+            width: 90%;
+            height: 24.15rem;
+        }
+    }   
+}
+footer {
+	padding-top: .9375rem;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.flex-item0 {
+	a {
+		img {
+			width: 60%;
+		}
+	}
+}
+.flex-item1 {
+	a {
+		img {
+			width: 15%;
+		}
+	}
+}
+.copyright {
+	width: 70%;
+    font-size: .6rem;
+}
+}

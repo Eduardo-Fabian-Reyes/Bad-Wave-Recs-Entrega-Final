@@ -1,0 +1,62 @@
+@media (max-width:1024px){
+		.nav{
+			.nav-container{
+				.nav-menu{
+					font-size: 2.25rem;
+					gap: 3.25rem;
+				}
+			}
+		}
+.main-index{
+	.section-catalogo{
+        height: 22.15rem;
+    }
+	.newsmerch{
+		.section-news{
+            background-size: cover;
+			background-position: center;
+        }
+		.section-merch{
+            background-size: cover;
+			background-position: center;
+        }
+    }
+	}
+	.main-catalogo{
+        .flex-bandas1 {
+            height: 17.15rem;
+        }
+        
+        .flex-bandas2 {
+            height: 17.15rem;
+        }
+        
+        .flex-bandas3 {
+            height: 17.15rem;
+        }
+        
+        .flex-bandas4 {
+            height: 17.15rem;
+        }
+    }
+	footer {
+	padding-top: .9375rem;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	}
+	.flex-item0 {
+	width: 50%;
+	}
+	.flex-item1 {
+	width: 50%;
+	}
+	.copyright {
+	width: 100%;
+	font-size: 1.25rem;
+	}
+}
