@@ -1,1 +1,34 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+.main-news{
+    .bg-danger-subtle{
+        background-color: #FFD4FF!important;
+        h1{
+            color: #FFD4FF !important;
+            background: #13101C;
+        }
+        }
+    .card-body{
+        @include cards
+    }
+}
+.main-merch{
+    .bg-danger-subtle{
+        background-color: #FFD4FF!important;
+        h1{
+            color: #FFD4FF !important;
+            background: #13101C;
+        }
+    }
+    .card-body{
+        @include cards
+    }
+}
+.main-contacto{
+    .bg-danger-subtle{
+        background-color: #FFD4FF!important;
+        h1{
+            color: #FFD4FF !important;
+            background: #13101C;
+        }
+    }
+}
+

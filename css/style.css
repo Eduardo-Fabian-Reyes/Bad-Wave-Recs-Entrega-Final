@@ -25,7 +25,8 @@ header {
       header .nav-container .nav-menu li {
         list-style: none; }
         header .nav-container .nav-menu li a {
-          text-decoration: none; }
+          text-decoration: none;
+          color: #13101C; }
 
 .nav-label, .nav-input {
   display: none; }
@@ -192,6 +193,36 @@ body {
   border-style: none;
   padding: 1rem 1.5rem;
   cursor: pointer; }
+
+.main-news .bg-danger-subtle {
+  background-color: #FFD4FF !important; }
+  .main-news .bg-danger-subtle h1 {
+    color: #FFD4FF !important;
+    background: #13101C; }
+
+.main-news .card-body {
+  background: #13101C;
+  color: #FFD4FD;
+  text-align: center;
+  font-family: 'Saira', sans-serif; }
+
+.main-merch .bg-danger-subtle {
+  background-color: #FFD4FF !important; }
+  .main-merch .bg-danger-subtle h1 {
+    color: #FFD4FF !important;
+    background: #13101C; }
+
+.main-merch .card-body {
+  background: #13101C;
+  color: #FFD4FD;
+  text-align: center;
+  font-family: 'Saira', sans-serif; }
+
+.main-contacto .bg-danger-subtle {
+  background-color: #FFD4FF !important; }
+  .main-contacto .bg-danger-subtle h1 {
+    color: #FFD4FF !important;
+    background: #13101C; }
 
 @media (max-width: 2560px) {
   footer {
