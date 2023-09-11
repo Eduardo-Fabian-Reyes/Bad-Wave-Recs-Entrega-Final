@@ -4,34 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <base href="/">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-        <nav class="flex-nav1">
-            <ul class="navbar">
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Catálogo</a>
-                </li>
-                <li>
-                    <a href="../pages/news.html">News</a>
-                </li>
-                <li>
-                    <a href="../pages/merch.html">Merch</a>
-                </li>
-                <li>
-                    <a href="../pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="nav">
+            <div class="nav-container">
+                <label for="menu" class="nav-label">
+                    <img src="../assets/img/lista.png" class="nav_img" alt="">
+                </label>
+                <input type="checkbox" name="" id="menu" class="nav-input">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/merch.html">Merch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                        <a href="../index.html">
+                            <img class="nav-logo" src="../assets/img/logo-home.png" alt="">
+                        </a>
+            </div>
         </nav>
-        <div class="flex-nav0">
-            <a href="../index.html"><img src="../assets/img/logo-home.png" alt=""></a>
-        </div>
-    </header>
-    <main>
+</header>
+    <main class="main-catalogo">
         <section class="flex-bandas">
             <h1>Nuestros Artistas</h1>
             <div class="flex-bandas1"><a href="https://youtu.be/iE25hx5ihIk?si=hBRhizTGNSkq5FfF" target="_blank"><button>Turnstile</button></a></div>
@@ -42,7 +49,7 @@
     </main>
     <footer> 
         <div class="flex-item0">
-                <a href="../index.html"><img src="../assets/img/logo-footer.png" alt=""></a>
+                <a href="index.html"><img src="../assets/img/logo-footer.png" alt=""></a>
         </div> 
     <div class="flex-item1">
         <a href="https://www.spotify.com/" target="_blank"><img src="../assets/img/spotify-footer.png" alt=""></a> 
@@ -50,8 +57,8 @@
         <a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instagram-footer.png" alt=""></a>
     </div>
     <div class="copyright">
-        <p>"© Bad Wave Recs 2023"</p>
+        <p>"© Bad Wave Recs 2023" </p>
     </div>
-</footer>
+    </footer>
 </body>
 </html>
