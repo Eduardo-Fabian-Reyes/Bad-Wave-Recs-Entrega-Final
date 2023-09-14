@@ -43,6 +43,7 @@ La presente versión subida al repositorio se basa en los requisitos expuestos p
 - Solicitud de Dia Libre extraordinarios en el trabajo.
 - Tiempo
 - Un par de Neuronas
+
 #Agradecimientos
 Finalmente, como todo gran proyecto hay personas externas a él pero asociadas al mismo indirectamente:
 
