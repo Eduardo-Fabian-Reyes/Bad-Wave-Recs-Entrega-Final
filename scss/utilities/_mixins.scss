@@ -1,8 +1,15 @@
+@mixin flexible ($display, $direction, $justify, $align){ 
+    display: $display;
+    flex-direction: $direction;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: $justify;
+    align-items: $align;
+}
 @mixin cards{
     background: #13101C;
     color: #FFD4FD;
     text-align: center;
     font-family: 'Saira', sans-serif;;
 }
-
-

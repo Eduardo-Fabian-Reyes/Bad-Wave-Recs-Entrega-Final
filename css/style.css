@@ -28,6 +28,33 @@ header {
           text-decoration: none;
           color: #13101C; }
 
+#subrayado {
+  display: inline-block;
+  position: relative; }
+
+#subrayado::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFD4FF;
+  transform: scaleY(0);
+  transform-origin: center right;
+  transition: 0.6s ease-out; }
+
+#subrayado:hover::after {
+  transform: scaleY(1);
+  transform-origin: center left; }
+
+#prueba img {
+  transition: all 300ms;
+  position: relative; }
+
+#prueba img:hover {
+  transform: scale(1.15); }
+
 .nav-label, .nav-input {
   display: none; }
 
@@ -56,74 +83,66 @@ footer {
 
 body {
   background-color: #FFD4FF; }
-  body .section-catalogo {
-    width: 100%;
-    height: 45.25rem;
-    background-image: url(../assets/img/catalogo-home.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.main-index .section-catalogo {
+  width: 100%;
+  height: 45.25rem;
+  background-image: url(../assets/img/catalogo-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto; }
+  .main-index .section-catalogo div a button {
+    background-color: rgba(229, 175, 227, 0.39);
+    color: #13101C;
+    font-family: "Saira", sans-serif;
+    font-size: 3rem;
+    border-style: none;
+    padding: 1rem 1.5rem;
+    cursor: pointer; }
+
+#btn-catalogo button {
+  transition: all 300ms;
+  position: relative; }
+
+#btn-catalogo button:hover {
+  transform: scale(1.15); }
+
+.section-news, .section-merch {
+  display: flex;
+  width: 100%;
+  height: 42.25rem;
+  background-image: url(../assets/img/news-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-content: flex-start; }
+  .section-news div, .section-merch div {
     display: flex;
     align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    margin: 0 auto; }
-    body .section-catalogo div a button {
+    justify-content: center; }
+    .section-news div a button, .section-merch div a button {
       background-color: rgba(229, 175, 227, 0.39);
       color: #13101C;
       font-family: "Saira", sans-serif;
       font-size: 3rem;
       border-style: none;
-      padding: 1rem 1.5rem;
+      padding: .1rem 1.5rem;
       cursor: pointer; }
-  body .section-news {
-    display: flex;
-    width: 100%;
-    height: 42.25rem;
-    background-image: url(../assets/img/news-home.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: center;
-    align-content: flex-start; }
-    body .section-news div {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      body .section-news div a button {
-        background-color: rgba(229, 175, 227, 0.39);
-        color: #13101C;
-        font-family: "Saira", sans-serif;
-        font-size: 3rem;
-        border-style: none;
-        padding: .1rem 1.5rem;
-        cursor: pointer; }
-  body .section-merch {
-    display: flex;
-    width: 100%;
-    height: 42.25rem;
-    background-image: url(../assets/img/merch-home.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: center;
-    align-content: flex-start; }
-    body .section-merch div {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      body .section-merch div a button {
-        background-color: rgba(229, 175, 227, 0.39);
-        color: #13101C;
-        font-family: "Saira", sans-serif;
-        font-size: 3rem;
-        border-style: none;
-        padding: .1rem 1.5rem;
-        cursor: pointer; }
-  body .newsmerch {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto; }
+
+.section-merch {
+  background-image: url(/assets/img/merch-home.jpg); }
+
+.newsmerch {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto; }
 
 .flex-bandas {
   display: flex;
@@ -142,7 +161,7 @@ body {
     font-size: 4rem;
     text-align: center; }
 
-.flex-bandas1 {
+.flex-bandas1, .flex-bandas2, .flex-bandas3, .flex-bandas4 {
   background-image: url(../assets/img/turnstile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -151,48 +170,46 @@ body {
   display: flex;
   align-items: end;
   justify-content: center;
-  cursor: pointer; }
+  background-position: center; }
 
 .flex-bandas2 {
-  background-image: url(../assets/img/deftones.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 45%;
-  height: 40.15rem;
-  display: flex;
-  align-items: end;
-  justify-content: center;
-  cursor: pointer; }
+  background-image: url(../assets/img/deftones.jpg); }
 
 .flex-bandas3 {
-  background-image: url(../assets/img/loquero.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 45%;
-  height: 40.15rem;
-  display: flex;
-  align-items: end;
-  justify-content: center;
-  cursor: pointer; }
+  background-image: url(../assets/img/loquero.jpg); }
 
 .flex-bandas4 {
-  background-image: url(../assets/img/title-fight.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 45%;
-  height: 40.15rem;
-  display: flex;
-  align-items: end;
-  justify-content: center; }
+  background-image: url(../assets/img/title-fight.jpg); }
 
-.flex-bandas1 a button, .flex-bandas2 a button, .flex-bandas3 a button, .flex-bandas4 a button {
+.flex-bandas1 a button, .flex-bandas2 a button, .flex-bandas3 a button, .flex-bandas4 a button, .flex-bandas2 a button, .flex-bandas3 a button, .flex-bandas4 a button {
   background-color: rgba(229, 175, 227, 0.39);
   color: #13101C;
   font-family: "Saira", sans-serif;
   font-size: 1.5rem;
   border-style: none;
-  padding: 1rem 1.5rem;
+  padding: .1rem .5rem;
   cursor: pointer; }
+
+#btn-catalogo button {
+  transition: all 300ms;
+  position: relative; }
+
+#btn-catalogo button:hover {
+  transform: scale(1.15); }
+
+#btn-catalogo div {
+  transition: all 300ms;
+  position: relative; }
+
+#btn-catalogo div:hover {
+  transform: scale(1.15); }
+
+#btn-catalogo button {
+  transition: all 300ms;
+  position: relative; }
+
+#btn-catalogo button:hover {
+  transform: scale(1.15); }
 
 .main-news .bg-danger-subtle {
   background-color: #FFD4FF !important; }
@@ -251,13 +268,13 @@ body {
   .main-index .section-catalogo {
     background-position: center;
     height: 28.15rem; }
-  .main-index .newsmerch .section-news {
+  .main-index .newsmerch .section-news, .main-index .newsmerch .section-merch {
     height: 23.15rem;
     width: 50%; }
   .main-index .newsmerch .section-merch {
     height: 23.15rem;
     width: 50%; }
-  .main-catalogo .flex-bandas1 {
+  .main-catalogo .flex-bandas1, .main-catalogo .flex-bandas2, .main-catalogo .flex-bandas3, .main-catalogo .flex-bandas4 {
     height: 23.15rem; }
   .main-catalogo .flex-bandas2 {
     height: 23.15rem; }
@@ -272,13 +289,13 @@ body {
     gap: 3.25rem; }
   .main-index .section-catalogo {
     height: 22.15rem; }
-  .main-index .newsmerch .section-news {
+  .main-index .newsmerch .section-news, .main-index .newsmerch .section-merch {
     background-size: cover;
     background-position: center; }
   .main-index .newsmerch .section-merch {
     background-size: cover;
     background-position: center; }
-  .main-catalogo .flex-bandas1 {
+  .main-catalogo .flex-bandas1, .main-catalogo .flex-bandas2, .main-catalogo .flex-bandas3, .main-catalogo .flex-bandas4 {
     height: 17.15rem; }
   .main-catalogo .flex-bandas2 {
     height: 17.15rem; }
@@ -336,11 +353,11 @@ body {
   .main-index .newsmerch {
     flex-direction: column;
     flex-wrap: wrap; }
-    .main-index .newsmerch .section-news {
+    .main-index .newsmerch .section-news, .main-index .newsmerch .section-merch {
       width: 100%; }
     .main-index .newsmerch .section-merch {
       width: 100%; }
-  .main-catalogo .flex-bandas .flex-bandas1 {
+  .main-catalogo .flex-bandas .flex-bandas1, .main-catalogo .flex-bandas .flex-bandas2, .main-catalogo .flex-bandas .flex-bandas3, .main-catalogo .flex-bandas .flex-bandas4 {
     width: 90%;
     height: 24.15rem; }
   .main-catalogo .flex-bandas .flex-bandas2 {
@@ -376,13 +393,13 @@ body {
     top: 2.2rem; }
   .main-index .section-catalogo {
     height: 12.15rem; }
-  .main-index .newsmerch .section-news {
+  .main-index .newsmerch .section-news, .main-index .newsmerch .section-merch {
     height: 12.15rem; }
   .main-index .newsmerch .section-merch {
     height: 12.15rem; }
   .main-catalogo .flex-bandas h1 {
     font-size: 2rem; }
-  .main-catalogo .flex-bandas .flex-bandas1 {
+  .main-catalogo .flex-bandas .flex-bandas1, .main-catalogo .flex-bandas .flex-bandas2, .main-catalogo .flex-bandas .flex-bandas3, .main-catalogo .flex-bandas .flex-bandas4 {
     height: 13.15rem; }
   .main-catalogo .flex-bandas .flex-bandas2 {
     height: 13.15rem; }
@@ -420,13 +437,13 @@ body {
     top: 2.2rem; }
   .main-index .section-catalogo {
     height: 8.15rem; }
-  .main-index .newsmerch .section-news {
+  .main-index .newsmerch .section-news, .main-index .newsmerch .section-merch {
     height: 8.15rem; }
   .main-index .newsmerch .section-merch {
     height: 8.15rem; }
   .main-catalogo .flex-bandas h1 {
     font-size: 2rem; }
-  .main-catalogo .flex-bandas .flex-bandas1 {
+  .main-catalogo .flex-bandas .flex-bandas1, .main-catalogo .flex-bandas .flex-bandas2, .main-catalogo .flex-bandas .flex-bandas3, .main-catalogo .flex-bandas .flex-bandas4 {
     height: 10.15rem; }
   .main-catalogo .flex-bandas .flex-bandas2 {
     height: 10.15rem; }

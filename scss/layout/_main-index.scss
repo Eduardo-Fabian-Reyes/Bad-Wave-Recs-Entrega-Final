@@ -3,7 +3,8 @@ body{
     $fuente-badwave: 'Saira', sans-serif;
     $color-fuente1: #13101C; 
     $opacidad-botones: rgba(229, 175, 227, 0.39);
-    
+}
+.main-index{ 
     .section-catalogo {
         width: 100%;
         height: 45.25rem;
@@ -29,6 +30,14 @@ body{
             }
         }
     }
+}
+#btn-catalogo button{
+    transition: all 300ms;
+    position: relative;
+}
+#btn-catalogo button:hover{
+    transform: scale(1.15);
+}
     .section-news {
         div {
             a {
@@ -56,30 +65,8 @@ body{
         align-content: flex-start;
     }
     .section-merch {
-        div {
-            a {
-                button {
-                    background-color: $opacidad-botones;
-                    color: $color-fuente1;
-                    font-family: $fuente-badwave;
-                    font-size: 3rem;
-                    border-style: none;
-                    padding: .1rem 1.5rem;
-                    cursor: pointer;
-                }
-            }
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        display: flex;
-        width: 100%;
-        height: 42.25rem;
-        background-image: url(../assets/img/merch-home.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        justify-content: center;
-        align-content: flex-start;
+        @extend .section-news;
+        background-image: url(/assets/img/merch-home.jpg);
     }
     .newsmerch {
         display: flex;
@@ -89,4 +76,4 @@ body{
         overflow: hidden;
         margin: 0 auto;
     }
-}
+
