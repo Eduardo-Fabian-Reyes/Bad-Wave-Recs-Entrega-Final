@@ -130,11 +130,11 @@ body {
       font-family: "Saira", sans-serif;
       font-size: 3rem;
       border-style: none;
-      padding: .1rem 1.5rem;
+      padding: 0.1rem 1.5rem;
       cursor: pointer; }
 
 .section-merch {
-  background-image: url(/assets/img/merch-home.jpg); }
+  background-image: url(../assets/img/merch-home.jpg); }
 
 .newsmerch {
   display: flex;
@@ -328,7 +328,6 @@ body {
       justify-content: flex-start;
       position: fixed;
       top: 3.2rem;
-      bottom: 30rem;
       background: #FFD4FF;
       width: 100%;
       left: 0;
@@ -389,8 +388,7 @@ body {
 @media (max-width: 425px) {
   header .nav .nav-container .nav-menu {
     font-size: 1.25rem;
-    bottom: 39rem;
-    top: 2.2rem; }
+    top: 2rem; }
   .main-index .section-catalogo {
     height: 12.15rem; }
   .main-index .newsmerch .section-news, .main-index .newsmerch .section-merch {
@@ -407,6 +405,9 @@ body {
     height: 13.15rem; }
   .main-catalogo .flex-bandas .flex-bandas4 {
     height: 13.15rem; }
+  .main-contacto .bg-danger-subtle h1 {
+    padding-left: 1rem;
+    padding-right: 1rem; }
   footer {
     padding-top: .9375rem;
     display: flex;
@@ -431,16 +432,45 @@ body {
   .flex-item1 a img {
     width: 15%; } }
 
+@media (max-width: 375px) {
+  header .nav .nav-container .nav-menu {
+    font-size: 1.25rem;
+    top: 1.8rem; } }
+
 @media (max-width: 320px) {
   header .nav .nav-container .nav-menu {
     font-size: 1.25rem;
-    top: 2.2rem; }
+    top: 1.6rem; }
   .main-index .section-catalogo {
     height: 8.15rem; }
+    .main-index .section-catalogo div a button {
+      background-color: rgba(229, 175, 227, 0.39);
+      color: #13101C;
+      font-family: "Saira", sans-serif;
+      font-size: 1.5rem;
+      border-style: none;
+      padding: 0.1rem 0.5rem;
+      cursor: pointer; }
   .main-index .newsmerch .section-news, .main-index .newsmerch .section-merch {
     height: 8.15rem; }
+    .main-index .newsmerch .section-news div a button, .main-index .newsmerch .section-merch div a button {
+      background-color: rgba(229, 175, 227, 0.39);
+      color: #13101C;
+      font-family: "Saira", sans-serif;
+      font-size: 1.5rem;
+      border-style: none;
+      padding: 0.1rem 0.5rem;
+      cursor: pointer; }
   .main-index .newsmerch .section-merch {
     height: 8.15rem; }
+    .main-index .newsmerch .section-merch div a button {
+      background-color: rgba(229, 175, 227, 0.39);
+      color: #13101C;
+      font-family: "Saira", sans-serif;
+      font-size: 1.5rem;
+      border-style: none;
+      padding: 0.1rem 0.5rem;
+      cursor: pointer; }
   .main-catalogo .flex-bandas h1 {
     font-size: 2rem; }
   .main-catalogo .flex-bandas .flex-bandas1, .main-catalogo .flex-bandas .flex-bandas2, .main-catalogo .flex-bandas .flex-bandas3, .main-catalogo .flex-bandas .flex-bandas4 {

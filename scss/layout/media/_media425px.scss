@@ -4,8 +4,7 @@ header{
             .nav-container{
                 .nav-menu{
                     font-size: 1.25rem;
-                    bottom: 39rem;
-                    top: 2.2rem;
+                    top: 2rem;
             }
         }
     }
@@ -41,6 +40,14 @@ header{
                 height: 13.15rem
             }
         }   
+    }
+.main-contacto{
+    .bg-danger-subtle{
+        h1{
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        }
     }
 footer{
     padding-top: .9375rem;

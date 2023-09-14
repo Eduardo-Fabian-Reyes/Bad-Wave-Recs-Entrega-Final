@@ -7,6 +7,15 @@
     justify-content: $justify;
     align-items: $align;
 }
+@mixin opacidad-btn($size, $pad){
+    background-color: $opacidad-botones;
+    color: $color-fuente1;
+    font-family: $fuente-badwave;
+    font-size: $size;
+    border-style: none;
+    padding: $pad;
+    cursor: pointer;
+}
 @mixin cards{
     background: #13101C;
     color: #FFD4FD;

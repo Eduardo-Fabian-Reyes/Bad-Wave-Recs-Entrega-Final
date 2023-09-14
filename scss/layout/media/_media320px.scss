@@ -4,7 +4,7 @@
                 .nav-container{
                     .nav-menu{
                         font-size: 1.25rem;
-                        top: 2.2rem;
+                        top: 1.6rem;
                 }
             }
         }
@@ -12,13 +12,34 @@
     .main-index{
         .section-catalogo{
             height: 8.15rem;
+            div{
+                a{
+                    button{
+                        @include opacidad-btn (1.5rem, .1rem .5rem)
+                    }
+                }
+            }
         }
         .newsmerch{
         .section-news{
             height: 8.15rem;
+            div{
+                a{
+                    button{
+                        @include opacidad-btn (1.5rem, .1rem .5rem)
+                    }
+                }
+            }
         }
         .section-merch{
             height: 8.15rem;
+            div{
+                a{
+                    button{
+                        @include opacidad-btn (1.5rem, .1rem .5rem)
+                    }
+                }
+            }
         }
         }
     }

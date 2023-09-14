@@ -19,13 +19,7 @@ body{
         div {
             a {
                 button {
-                    background-color: $opacidad-botones;
-                    color: $color-fuente1;
-                    font-family: $fuente-badwave;
-                    font-size: 3rem;
-                    border-style: none;
-                    padding: 1rem 1.5rem;
-                    cursor: pointer;
+                    @include opacidad-btn (3rem, 1rem 1.5rem)
                 }
             }
         }
@@ -38,35 +32,29 @@ body{
 #btn-catalogo button:hover{
     transform: scale(1.15);
 }
-    .section-news {
+.section-news {
+    display: flex;
+    width: 100%;
+    height: 42.25rem;
+    background-image: url(../assets/img/news-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-content: flex-start;
         div {
-            a {
-                button {
-                    background-color: $opacidad-botones;
-                    color: $color-fuente1;
-                    font-family: $fuente-badwave;
-                    font-size: 3rem;
-                    border-style: none;
-                    padding: .1rem 1.5rem;
-                    cursor: pointer;
-                }
-            }
             display: flex;
             align-items: center;
             justify-content: center;
+            a {
+                button {
+                    @include opacidad-btn (3rem, .1rem 1.5rem);
+                }
+            }
         }
-        display: flex;
-        width: 100%;
-        height: 42.25rem;
-        background-image: url(../assets/img/news-home.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        justify-content: center;
-        align-content: flex-start;
     }
     .section-merch {
         @extend .section-news;
-        background-image: url(/assets/img/merch-home.jpg);
+        background-image: url(../assets/img/merch-home.jpg);
     }
     .newsmerch {
         display: flex;
