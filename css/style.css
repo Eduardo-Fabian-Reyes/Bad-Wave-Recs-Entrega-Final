@@ -368,6 +368,10 @@ body {
   .main-catalogo .flex-bandas .flex-bandas4 {
     width: 90%;
     height: 24.15rem; }
+  .main-contacto {
+    width: auto;
+    height: 80vh;
+    background-color: #FFD4FF; }
   footer {
     padding-top: .9375rem;
     display: flex;
@@ -435,7 +439,9 @@ body {
 @media (max-width: 375px) {
   header .nav .nav-container .nav-menu {
     font-size: 1.25rem;
-    top: 1.8rem; } }
+    top: 1.8rem; }
+  .main-contacto {
+    height: 83vh; } }
 
 @media (max-width: 320px) {
   header .nav .nav-container .nav-menu {
