@@ -223,6 +223,37 @@ body {
   text-align: center;
   font-family: 'Saira', sans-serif; }
 
+.main-news .bg-danger-subtle .d-flex.flex-wrap.gap-2.justify-content-around .card.border.border-0.m-3 .card-body .card-title {
+  color: #13101C;
+  background: #e5afe3e3;
+  padding-top: 5px;
+  border-bottom-width: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 5px; }
+
+.main-news .bg-danger-subtle .d-flex.flex-wrap.gap-2.justify-content-around .card.border.border-0.m-3 .card-body .card-text {
+  text-align: revert; }
+
+.main-news .bg-danger-subtle .d-flex.flex-wrap.gap-2.justify-content-around .card.border.border-0.m-3 .card-img-top.img-fluid {
+  height: 25rem !important;
+  cursor: pointer;
+  transition: transform 300ms, filter 150ms ease-in-out;
+  transform-origin: center center;
+  filter: brightness(70%); }
+
+.main-news .bg-danger-subtle .d-flex.flex-wrap.gap-2.justify-content-around .card.border.border-0.m-3 .card-footer {
+  background-color: #e5afe3e3;
+  display: flex;
+  justify-content: flex-end; }
+  .main-news .bg-danger-subtle .d-flex.flex-wrap.gap-2.justify-content-around .card.border.border-0.m-3 .card-footer .text-body-secondary {
+    font-family: "Saira", sans-serif;
+    color: #13101C !important; }
+
+.main-news .card-img-top.img-fluid:hover {
+  filter: brightness(100%);
+  transform: scale(1.05); }
+
 .main-merch .bg-danger-subtle {
   background-color: #FFD4FF !important; }
   .main-merch .bg-danger-subtle h1 {
@@ -254,13 +285,14 @@ body {
   .flex-item0 {
     width: 50%; }
     .flex-item0 a img {
-      width: 50%; }
+      width: 35%; }
   .flex-item1 {
     width: 50%; }
     .flex-item1 a img {
-      width: 15%; }
+      width: 10%; }
   .copyright {
-    width: 100%; } }
+    width: 100%;
+    font-size: 1.25rem; } }
 
 @media (max-width: 1440px) {
   .nav .nav-container .nav-menu {
@@ -393,6 +425,8 @@ body {
   header .nav .nav-container .nav-menu {
     font-size: 1.25rem;
     top: 2rem; }
+  header .nav .nav-logo {
+    width: 80%; }
   .main-index .section-catalogo {
     height: 12.15rem; }
   .main-index .newsmerch .section-news, .main-index .newsmerch .section-merch {
