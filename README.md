@@ -30,7 +30,7 @@ La presente versión subida al repositorio se basa en los requisitos expuestos p
 9. Incluir SEO.✔
 
 # Captura de Muestra:
-[!](https://images2.imgbox.com/37/de/z8YgOfvJ_o.png)
+![](https://images2.imgbox.com/37/de/z8YgOfvJ_o.png)
 
 ## Recursos Utilizados
 - Visual Studio Code
