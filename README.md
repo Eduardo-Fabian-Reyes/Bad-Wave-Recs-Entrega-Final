@@ -6,33 +6,32 @@ El siguiente proyecto se basó en los gustos musicales y fantasía (y sueño, po
 
 ![](https://images2.imgbox.com/04/9f/40enP64s_o.png)
 
-**Contenidos**
 
-[TOCM]
+# Sitio Web
+Bad Wave Recs consta de 5 páginas, las cuales estan asociadas al mundo que abarca una discográfica independiente pero pretenciosa, la cual abarca contrato con artistas de renombre, una tienda online, un portal de noticias y un formulario de contacto, el cual esta guíado para incluir a nuevos artistas.
 
-[TOC]
-
-#Sitio Web
-Bad Wave Recs consta de 5 páginas, las cuales estan asociadas al mundo que abarca una discográfica independiente pero pretenciosa, la cual abarca contrato con artistas de renombre, una tienda online, un portal de noticias y un formulario de contacto, el cual esta guíado para incluir a nuevos artistas
 # Descripción de la versión 3.0
 La presente versión subida al repositorio se basa en los requisitos expuestos para la tercera pre-entrega del proyecto, los cuales serán desarrollados a lo largo de todo el sitio.
-	- Requisitos:
-	1. Repositorio en Github. ✔
-	2. Github pages. ✔
-	3. 5 HTML totalmente maqueteados y con sus estilos correspondientes (FLEX-GRIDS) ✔
-	4. 3 HTML responsive como mínimo. (Si pueden ser todos mejor) ✔
-	5. CSS todo pasado a SASS:
- 	- Partials✔
+
+## Requisitos:
+1. Repositorio en Github. ✔
+2. Github pages. ✔
+3. 5 HTML totalmente maqueteados y con sus estilos correspondientes (FLEX-GRIDS) ✔
+4. 3 HTML responsive como mínimo. (Si pueden ser todos mejor) ✔
+5. CSS todo pasado a SASS:
+	- Partials✔
 	- Nesting✔
- 	- 2 Mixings✔
+	- 2 Mixings✔
 	- 2 Extends✔
 	- 2 Variables mínimo. ✔
-	6. En caso de hacer la primera instalación node_modules tiene que estar en el gitignore. ✔
-	7. Tienen que hacer un README.md presentando el proyecto.✔
-	8. Incluir Animaciones.✔
-	9. Incluir SEO.✔
-- Captura de Muestra:
-[![](https://images2.imgbox.com/37/de/z8YgOfvJ_o.png)]
+6. En caso de hacer la primera instalación node_modules tiene que estar en el gitignore. ✔
+7. Tienen que hacer un README.md presentando el proyecto.✔
+8. Incluir Animaciones.✔
+9. Incluir SEO.✔
+
+# Captura de Muestra:
+[!](https://images2.imgbox.com/37/de/z8YgOfvJ_o.png)
+
 ## Recursos Utilizados
 - Visual Studio Code
 - SASS
@@ -44,7 +43,7 @@ La presente versión subida al repositorio se basa en los requisitos expuestos p
 - Tiempo
 - Un par de Neuronas
 
-#Agradecimientos
+# Agradecimientos
 Finalmente, como todo gran proyecto hay personas externas a él pero asociadas al mismo indirectamente:
 
 Agradezco a mi novia que me acompaño desde el día uno que decidí estudiar Desarrollo Web, te debo mas de una y espero devolverte eso y mucho más.
